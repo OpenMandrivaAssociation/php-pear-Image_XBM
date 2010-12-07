@@ -5,7 +5,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.9.0
-Release:	%mkrel 0.%{pre}.1
+Release:	%mkrel 0.%{pre}.2
 Summary:	Manipulate XBM images
 License:	PHP License
 Group:		Development/PHP
