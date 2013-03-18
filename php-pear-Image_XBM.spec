@@ -4,13 +4,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	0.9.0
-Release:	0.%{pre}.6
+Version:	0.9.0RC1
+Release:	1
 Summary:	Manipulate XBM images
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Image_XBM/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}%{pre}.tgz
+Source0:	http://download.pear.php.net/package/Image_XBM-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -115,4 +115,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 0.2.0-1mdk
 - initial Mandriva package (PLD import)
+
 
